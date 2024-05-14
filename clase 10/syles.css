@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.padre{ 
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(118, 118, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.hijo{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(51, 168, 184);
+    border: 1px solid ;
+}
+.hijo:nth-child(1){
+    background-color: bisque;
+}
+.hijo:nth-child(2){
+    background-color: rgb(128, 82, 170);
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 1px; 
+    /*absolut : es el que tiene mayor valor
+    fixed: se queda en el lugar fijo
+    stcky: se mueve
+    */
+}
+.hijo:nth-child(2){
+    background-color: rgb(153, 70, 70);
+}
