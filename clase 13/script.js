@@ -70,7 +70,7 @@ if(hijos === "si"){
 else{
     alert(false)
     }
-    
+    EJERCICIO 2
    let dato = prompt("salario actual")
    alert( 'su salario anual es de : $' + 12)
    
