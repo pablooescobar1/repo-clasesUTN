@@ -64,7 +64,7 @@ function eliminarNombre(listaDeNombre, nombreAEliminar){
     listaDeNombre(listaDeNombres.indexOf(nombreAEliminar),1 )
 }
 
----------prof
+//--------prof
 
 /* OBJETOS */
 
@@ -160,7 +160,6 @@ persona2.mejorAmigo.nombre = 'pepe'
 
 /* console.log(persona2.nombre completo) *///esto da error
 console.log(persona2['nombre completo']) //caso correcto
-
 
 
 
