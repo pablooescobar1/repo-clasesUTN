@@ -122,4 +122,47 @@ const DATOS = {
         validacion: validarPassword
     }
 }
-    
+ const historial = [
+    {
+        accion: 'CALCULAR',
+        operacion: '+',
+        a: 1,
+        b: 2,
+        resultado: 2
+    },
+    {
+        accion: 'CALCULAR',
+        operacion: '-',
+        a: 1,
+        b: 2,
+        resultado: -1
+    },
+    {
+        accion: 'CALCULAR',
+        operacion: '-',
+        a: 1,
+        b: 2,
+        resultado: -1
+    },
+    {
+        accion: 'CALCULAR',
+        operacion: '-',
+        a: 1,
+        b: 2,
+        resultado: -1
+    },
+    {
+        accion: 'CALCULAR',
+        operacion: '-',
+        a: 1,
+        b: 2,
+        resultado: -1
+    },
+]
+
+function renderizarHistorial(historial){
+    const arrayDelElementos = historial.map (function(elemento){
+        return 'accion: ' + elemento.accion + '/n'+ 'operacion:' + elemento.operacion + '/n' + 'numeros: ' + elemento.a + '' + elemento.b + '/n' + 'resultado: ' + elemento.resultado + '/n'}
+    )
+    return arrayDelElementos.JOIN('/n')
+}
