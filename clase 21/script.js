@@ -52,24 +52,25 @@ Si esta todo bien por consola diran 'exito'
 
 
 
+/*
+ camara.addEventListener('entrar', (evento)=>{
+          El evento recibido es un objeto de informacion:
+     Quien entro
+     a que hora
+     sexo
+     color_pelo
+    
+ })
 
-// camara.addEventListener('entrar', (evento)=>{
-//     /* El evento recibido es un objeto de informacion:
-//     Quien entro
-//     a que hora
-//     sexo
-//     color_pelo
-//     */
-// })
-
-// pantalla.addEventListener('click', (evento) =>{
-//     /* 
-//     evento: {
-//         'screenX': 700
-//         'screenY': 200
-//     }
-//     */
-// })
+ pantalla.addEventListener('click', (evento) =>{
+     
+     evento: {
+        'screenX': 700
+        'screenY': 200
+     }
+    
+ })
+     */
 
 /* 
 YAGNI: You arent gonna need it
