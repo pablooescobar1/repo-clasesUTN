@@ -117,7 +117,7 @@ const obtenerValoresFormulario = (formulario) => {
 }
 
 
-const formLoginHTML = document.getElementById('form-login')
+//const formLoginHTML = document.getElementById('form-login')
 
 
 const handleSubmit = (evento) =>{
